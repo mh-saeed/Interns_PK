@@ -168,9 +168,19 @@ ol {
   width: auto;
   margin: 0px;
   pointer-events: none;
+  /* max-width: 100%; */
   height: 100%;
   background: white;
 }
+.modal-dialog-scrollable {
+  position: fixed;
+  margin: 0px;
+  pointer-events: none;
+
+  max-height: 1000px;
+  background: white;
+}
+
 .question .btn {
   width: 100%;
   display: block;
@@ -184,6 +194,13 @@ ol {
 }
 .question .row {
   display: none;
+}
+.question .active{
+  display: block;
+}
+.question img {
+  width: 100%;
+  margin: 20px auto;
 }
 .question .active {
   display: block;
